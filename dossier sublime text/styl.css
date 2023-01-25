@@ -1,0 +1,104 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+}
+
+section{
+	width: 5rem 10%;
+}
+
+.header{
+	position: sticky;
+	top: 0; right: 0; left:0;
+	background:#46484d;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow:0 .5rem 1rem rgb(0, 0, 0, .1);
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	z-index:1000;
+	
+}
+
+ .noir{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 1000px;
+
+}
+.c{
+	display:flex;
+}
+.c i{
+	padding:7px;
+	border-radius:50%;
+	background-color:white;
+	
+}
+.devenir-client{
+	margin:7px 0 0 10px;
+}
+.contact{
+	margin:7px 0 0 10px;
+}
+
+.lien{
+	color:white;
+	font-size:12px;
+	
+}
+.blanc{
+	background: cornflowerblue;
+	height: 90px;
+}
+.noir .c{
+	padding: 0 30px;
+}
+.header .noir .noir-d{
+}
+
+.sildes{
+	background:#B4F0F3;
+	height:400px;	
+}
+	
+body{
+	
+}
+
+
+/*
+.n{
+  background-color: black;
+  width: 100%;
+  height:50px;
+ 
+}
+.navbar{
+	background-color:red;
+    width: 100%;
+
+}
+
+.nav-link{
+	display: flex;
+	justify-content:space-around;
+}
+.nav-link ul li{
+	list-style-type: none;
+} 
+.nav-link ul li a{
+	text-decoration: none;
+
+	
+}
+.silde{
+	background-color: yellow;
+	width: 100%	;
+	height:300px;
+}
