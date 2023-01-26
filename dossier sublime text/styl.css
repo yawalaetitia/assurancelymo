@@ -14,21 +14,18 @@ section{
 	position: sticky;
 	top: 0; right: 0; left:0;
 	background:#46484d;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
 	box-shadow:0 .5rem 1rem rgb(0, 0, 0, .1);
 	padding-bottom: 2rem;
-	padding-top: 2rem;
+	padding-top: 1rem;
 	z-index:1000;
-	
+	height: 75px;
 }
 
  .noir{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-left: 1000px;
+	float: right;
 
 }
 .c{
@@ -52,53 +49,99 @@ section{
 	font-size:12px;
 	
 }
-.blanc{
-	background: cornflowerblue;
-	height: 90px;
-}
+
 .noir .c{
 	padding: 0 30px;
 }
 .header .noir .noir-d{
 }
 
+.blanc{
+	position: absolute;
+	padding:30px;
+	justify-content: space-between;
+	width: 100%;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	height: 90px;
+
+}
+.blanc .nav-link{
+	display: flex;
+	align-items: center;
+}
+.blanc .A{
+	color: black;
+	display: flex;
+	
+}
+.blanc .AP{
+	color:black;
+	display: flex;
+	
+}
+.blanc .p{
+	color:black;
+	display: flex;
+
+}
+.blanc .r{
+	color: black;
+	display: flex;
+	align-items: center;
+}
+.blanc .t{
+	color:black;
+	display: flex;
+}
+.blanc .ec{
+	color:black;
+	display: flex;
+}
+
 .sildes{
 	background:#B4F0F3;
 	height:400px;	
 }
+.sildes .element{
+	margin-top: 130px;
+	align-items: center;
+	justify-content: space-between;
+	float: right;
 	
-body{
-	
 }
-
-
-/*
-.n{
-  background-color: black;
-  width: 100%;
-  height:50px;
- 
-}
-.navbar{
-	background-color:red;
-    width: 100%;
+.sect{
+	margin-top: 50px;
 
 }
-
-.nav-link{
+.parent{
 	display: flex;
-	justify-content:space-around;
-}
-.nav-link ul li{
-	list-style-type: none;
-} 
-.nav-link ul li a{
-	text-decoration: none;
+	align-items: center;
 
-	
+
 }
-.silde{
-	background-color: yellow;
-	width: 100%	;
-	height:300px;
+.barre{
+	background-color: orange;
+	height: 50px;
+	width: 10px;
+	margin-right: 30px;
 }
+.nos-produit{
+	width: 30%;
+	display: flex;
+	position:absolute;
+left: 40%;
+	height:500px;
+
+
+}
+img{
+	width:70%;
+	height: 80%;
+}	
+
+
+
+
