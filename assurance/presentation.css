@@ -155,10 +155,11 @@ section{
 	display: flex;
 }
 /* sildes*/
-.sildes{
-	background-image:url("image/download1.jpg");	
+.sildes>img{
+	
+    width:100%;
 }
-.silde-image{
+/* .silde-image{
 	height: 100px;
 	width: 100px;
 
@@ -174,5 +175,5 @@ section{
 	justify-content: space-between;
 	float: right;
 	
-}
+} */
 
