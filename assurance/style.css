@@ -95,7 +95,7 @@ section{
 	top: 50px;
 	visibility: hidden;
 }
-.menu ul li:hover  {
+.menu ul ul:hover  {
 	visibility: visible;
 }
 

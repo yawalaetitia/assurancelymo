@@ -68,7 +68,7 @@ section{
 	
 }
 .logo{
-	font-size: 30px;
+	font-size: 10px;
 }
 .menu ul{
 	margin:30px;
@@ -98,6 +98,7 @@ section{
 .menu ul li:hover  {
 	visibility: visible;
 }
+
 
 /**.navbar{
 	display: flex;
@@ -155,10 +156,58 @@ section{
 	display: flex;
 }
 /* sildes*/
-.sildes>img{
-	
-    width:100%;
+.image{
+
 }
+.sildes{
+    width:100%;
+	height: 50%;
+}
+.sildes img{
+	width: 100%;
+	height: 50%;
+}
+.present{
+	display:flex;
+	margin: 50px;
+
+
+}
+.paragraphe{
+	width: 50%;
+	height: 50%;
+}
+.paragraphe p{
+	color: grey;
+	font-style: normal;
+	font-size: 30px;
+	padding-left: 40%;
+}
+.foot{
+	background-color: black;
+	width: 100%;
+	height: 400px;
+	display: flex;
+
+}
+
+.lu{
+	color: white;
+	margin: 40px;
+}
+.nj{
+	color: white;
+	margin: 40px;
+}
+.gp{
+	color: white;
+	margin: 40px;
+}
+.apn{
+	color: white;
+	margin: 40px;
+}
+
 /* .silde-image{
 	height: 100px;
 	width: 100px;
