@@ -1,0 +1,245 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+}
+
+section{
+	/* width: 5rem 10%; */
+	/* width: 100%; */
+}
+
+.header{
+	position: sticky;
+	top: 0; right: 0; left:0;
+	background:#46484d;
+	box-shadow:0 .5rem 1rem rgb(0, 0, 0, .1);
+	padding-bottom: 2rem;
+	padding-top: 1rem;
+	z-index:1000;
+	height: 75px;
+	width: 100%;
+	
+}
+
+ .noir{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	float: right;
+
+}
+.c{
+	display:flex;
+}
+.c i{
+	padding:7px;
+	border-radius:50%;
+	background-color:white;
+	
+}
+.devenir-client{
+	margin:7px 0 0 10px;
+}
+.contact{
+	margin:7px 0 0 10px;
+}
+
+.lien{
+	color:white;
+	font-size:12px;
+	
+}
+
+.noir .c{
+	padding: 0 30px;
+}
+.liens{
+	display: flex;
+	justify-content: space-around;
+	height: 90px;
+	width: 1200px;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+	
+}
+.logo{
+	font-size: 10px;
+}
+.menu ul{
+	margin:30px;
+	padding: 0;
+	
+}
+.menu li{
+	display: flex;
+	list-style: none;
+	float: left;
+	position:relative;
+}
+.menu ul li a {
+	color: #46484d;
+	text-decoration: none;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+.li a{
+	
+}
+.menu ul ul{
+	position: absolute;
+	top: 50px;
+	visibility: hidden;
+}
+.menu ul:hover ul {
+	visibility: visible;
+}
+
+
+/**.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.navbar a{
+	padding: 10px;
+}
+
+
+.blanc{
+	display: flex;
+	padding:4px;
+	width: 100%;
+	background: white;
+	height: 90px;
+
+}
+.blanche{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	border:1px solid red;	
+
+}
+.blanc .A{
+	color: black;
+	display: flex;
+	
+}
+.blanc .AP{
+	color:black;
+	display: flex;
+	
+}
+.blanc .p{
+	color:black;
+	display: flex;
+
+}
+.blanc .r{
+	color: black;
+	display: flex;
+	/* align-items: center; */
+
+.blanc .t{
+	color:black;
+	display: flex;
+}
+.blanc .ec{
+	color:black;
+	display: flex;
+}
+/* sildes*/
+.image{
+
+}
+.sildes{
+    width:100%;
+	height: 50%;
+}
+.sildes img{
+	width: 100%;
+	height: 50%;
+}
+.present{
+	display:flex;
+	margin: 50px;
+
+
+}
+.paragraphe{
+	width: 50%;
+	height: 50%;
+}
+.paragraphe p{
+	color: grey;
+	font-style: normal;
+	font-size: 30px;
+	padding-left: 40%;
+}
+.foot{
+    margin-top:30px;
+	background-color: black;
+	width: 100%;
+	height: 400px;
+	display: flex;
+
+}
+
+.lu{
+	color: white;
+	margin: 40px;
+}
+.nj{
+	color: white;
+	margin: 40px;
+}
+.gp{
+	color: white;
+	margin: 40px;
+}
+.apn{
+	color: white;
+	margin: 40px;
+}
+.formulaire{
+    width:100%;
+    height:400px;
+}
+.im{
+    margin-top:40px;
+    position:relative;
+    left:380px;
+
+}
+
+.hee{
+    color:orange;
+    margin-top:40px;
+    text-align:center;
+}
+
+/* .silde-image{
+	height: 100px;
+	width: 100px;
+
+}
+.silde-image img{
+	height: 200px;
+	width: 200px;
+	margin: 100px;
+}
+.sildes .element{
+	margin-top: 130px;
+	align-items: center;
+	justify-content: space-between;
+	float: right;
+	
+} */
+
