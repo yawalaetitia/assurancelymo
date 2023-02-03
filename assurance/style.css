@@ -10,7 +10,6 @@ section{
 	/* width: 5rem 10%; */
 	/* width: 100%; */
 }
-
 .header{
 	position: sticky;
 	top: 0; right: 0; left:0;
@@ -70,7 +69,7 @@ section{
 .logo{
 	font-size: 30px;
 }
-.menu ul{
+.menu .menu1{
 	margin:30px;
 	padding: 0;
 	
@@ -81,23 +80,47 @@ section{
 	float: left;
 	position:relative;
 }
-.menu ul li a {
+.menu .menu1 li a {
+	padding:;
+	
+	z-index:3;
 	color: #46484d;
 	text-decoration: none;
 	text-align: center;
-	transform: translate(-50%, -50%);
+
 }
-.li a{
-	
-}
-.menu ul ul{
+.menu .menu1 ul{
 	position: absolute;
-	top: 50px;
+	top: 19px;
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    padding: 10px;
 	visibility: hidden;
 }
-.menu ul ul:hover  {
-	visibility: visible;
+
+.menu .menu1 ul{
+	
 }
+.menu .menu1:hover ul {
+	visibility: visible;
+	background-color: white;
+}
+.menu .menu1:focus ul {
+	visibility: visible;
+	background-color: white;
+}
+.azerty{
+	padding:10px;
+	border-bottom:2px solid;
+	z-index:1;
+}
+
+li a{
+	border-bottom:2px solid;
+}
+/* .deroulant{
+	
+} */
 
 /**.navbar{
 	display: flex;
@@ -162,17 +185,19 @@ section{
 .silde-image{
 	height: 100px;
 	width: 100px;
+	display: flex;
 
 }
 .silde-image img{
-	height: 200px;
-	width: 200px;
+	left:200px;
+	position:relative;
+	bottom:50px;
+	height: 300px;
+	width: 300px;
 	margin: 100px;
 }
 .sildes .element{
-	margin-top: 130px;
-	align-items: center;
-	justify-content: space-between;
+	padding-right: 30%;
 	float: right;
 	
 }
@@ -207,9 +232,21 @@ section{
 	left: 40%;
 	height:500px;
 }
-img{
-	width:70%;
-	height: 80%;
+.img1{
+	background-color:red;
+	position:relative;
+	text-align:center;
+	width:500px;
+	height: 500px;
+	bottom:100px;
+}	
+.img2{
+	padding:10px;
+	position:relative;
+	text-align:center;
+	width:500px;
+	height: 485px;
+	bottom:40px;
 }	
 /*deuxiem section*/
 .sec{
@@ -342,5 +379,28 @@ img{
 	color: white;
 	margin: 40px;
 }
+/* .deroulant{
+	height: 200px;
+	width: 200px;
+	background-color:black;
+}
+.deroulant  li{
+	padding: 19px;
+	border-bottom: 1px solid black;
+
+}
+.deroulant  a{
+	color:white;
+}
+.deroulant  li:hover{
+	background-color: white;
+	color: black;	
+}
+.deroulant a:hover{
+	color: black;	
+} */
+
+
+
 
 
